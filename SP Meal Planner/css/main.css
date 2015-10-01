@@ -1,0 +1,178 @@
+body {	
+	font-family: sourcesans, sans-serif;
+	background-image: url(../images/veggies.jpg);
+	text-align: left;
+	margin: 0;
+	line-height: 14px;
+}
+
+@font-face {
+    font-family: dkpisang;
+    src: url(../fonts/DKPisang.otf);
+}
+
+@font-face {
+    font-family: sourcesans;
+    src: url(../fonts/SourceSansPro-Regular.otf);
+}
+
+#logo {
+	display: block;
+	text-align: left;
+}
+
+#signup {
+	display: block;
+	width: 150px;
+	padding: 0px;
+	margin: 10px;
+	text-align: center;
+	color: #d90;
+	border: 1px solid #d90;
+	float: right;
+	font-size: 12px
+}
+
+#signup a:hover {
+	display: block;
+	background-color: #ddd;
+}
+
+nav {
+	display: block;
+	width: 600px;
+}
+
+nav a {
+	background-color: #4ad;
+	font-size: 18px;
+	font-family: dkpisang;
+	letter-spacing: 2px;
+	display: block;
+	float: left;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 0;
+	width: 25%;
+}
+
+nav a:hover {
+	background-color: #fff;
+	text-decoration: none;
+	color: #4ad;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+	color: #d90;
+	text-decoration: none;
+	line-height: 26px;
+}
+
+#wrapper {
+	width: 600px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 0px;
+}
+
+h1 {
+	border-bottom: 1px solid #4ad;
+	font-family: dkpisang;
+	font-weight: normal;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #4ad;
+	padding: 5px;
+	margin: 0 0 14px 0;
+	text-align: left;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 12px;
+	color: #4ad;
+	line-height: 16px;
+	margin: 2px 0 5px 0;
+}
+
+h3 {
+	font-family: sourcesans;
+	display: inline;
+	color: #fff;
+	font-size: 14px;
+}
+
+p {
+	font-size: 10px;
+}
+
+#content {
+	clear: both;
+	background-color: #fff;
+	padding: 10px 20px;
+	margin: 0;
+	text-align: center;
+}
+
+.thumbs {
+	width: 150px;
+	height: 100px;
+	border: 1px solid #4ad;
+}
+
+#dotm {
+	width: 100%;
+	border-bottom: 1px solid #4ad;
+	margin: 0;
+	padding: 0;
+}
+
+#dotmtype {
+	display: inline-block;
+	float: right;
+	margin: 10px;
+	width: 200px;
+}
+
+.new {
+	display: inline-block;
+	width: 150px;
+	margin: 10px;
+	vertical-align: top;
+	text-align: left;
+}
+
+.new a:hover {
+	color: #4ad;
+	text-decoration: underline;
+}
+
+footer {
+	text-align: center;
+	width: 600px;
+	display: block;
+	color: #fff;
+	background-color: #4ad;
+	font-size: 18px;
+	padding: 10px 0;
+	vertical-align: center;
+}
+
+footer a {
+	font-family: dkpisang;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+}
+
+footer a:hover {
+	color: #fff;
+}
