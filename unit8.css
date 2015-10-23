@@ -1,0 +1,161 @@
+body {	
+	font-family: sourcesans, sans-serif;
+	text-align: center;
+	line-height: 1em;
+	background-color: #ddd;
+}
+
+@font-face {
+    font-family: sourcesans;
+    src: url(../fonts/SourceSansPro-Regular.otf);
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 0px;
+}
+
+#top {
+	display: block;
+	text-align: center;
+	padding-top: .8em;
+	background-image: url(../images/back.jpg);
+	background-size: 100%;
+}
+
+#logo {
+	width: 25em;
+}
+
+nav {
+	display: block;
+	width: 100%;
+}
+
+nav a {
+	background-color: #900;
+	font-size: 1em;
+	font-family: sourcesans;
+	line-height: 1.5em;
+	display: inline-block;
+	padding: .2em 0;
+	float: left;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	width: 25%;
+}
+
+nav a:hover {
+	background-color: #fff;
+	text-decoration: none;
+	color: #900;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+a {
+	color: #900;
+	text-decoration: none;
+	line-height: 1em;
+}
+
+h1 {
+	border-bottom: .5em solid #900;
+	font-family: sourcesans;
+	font-weight: normal;
+	font-size: 1.5em;
+	color: #900;
+	padding: .2em 0;
+	text-align: left;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: .8em;
+	padding: .3em 0;
+
+	color: #900;
+}
+
+h3 {
+	font-family: sourcesans;
+	display: inline;
+	color: #fff;
+	font-size: .8em;
+}
+
+p {
+	font-size: 10px;
+}
+
+.new {
+	display: inline-block;
+	padding: .8em; 
+	width: 25%;
+	vertical-align: top;
+	text-align: left;
+}
+
+.new a:hover {
+	color: #900;
+	text-decoration: underline;
+}
+
+.thumbs {
+	width: 100%;
+	border: .05em solid #900;
+}
+
+footer {
+	text-align: center;
+	width: 100%;
+	display: block;
+	color: #fff;
+	background-color: #900;
+	font-size: .8em;
+	line-height: 2em;
+}
+
+footer a {
+	font-family: sourcesans;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  nav a {
+	float: none;
+	width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #logo {
+  	width: 15em;
+	}
+
+  .new {
+	display: block;
+    width: 90%;
+    text-align: center;
+    padding: .5em;
+	margin-bottom: .5em;
+
+  }
+  .new img {
+  	width: 15em;
+  }
+}
+
+
